@@ -1,50 +1,142 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Francisca Kubista | Economics</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 760px;
-      margin: 80px auto;
-      padding: 0 24px;
-      color: #252525;
-      line-height: 1.7;
-    }
-    h1 { font-size: 32px; margin-bottom: 4px; }
-    h2 { margin-top: 45px; font-size: 20px; }
-    a { color: #245b80; text-decoration: none; }
-    nav a { margin-right: 22px; }
-    .subtitle { color: #666; }
-  </style>
+  <title>Francisca Kubista | Academic Website</title>
+  <meta name="description" content="Francisca Kubista | PhD Candidate in Economics">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#contact">Contact</a>
-  </nav>
 
-  <h1>Francisca Kubista</h1>
-  <p class="subtitle">
-    PhD Candidate in Economics<br>
-    University of Bari Aldo Moro
-  </p>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">Francisca Kubista</div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <h2 id="about">About Me</h2>
-  <p>
-    My research interests include human capital,
-    demographic change, economic history, and
-    regional economic development.
-  </p>
+  <main class="container">
 
-  <h2 id="research">Research</h2>
-  <p>Working papers and research projects coming soon.</p>
+    <section class="hero">
+      <div class="hero-text">
+        <div class="smallcaps">PhD Candidate in Economics</div>
+        <h1>Francisca<br>Kubista</h1>
+        <div class="subtitle">
+          University of Bari Aldo Moro
+        </div>
+        <p>
+          I am a PhD Candidate in Economics with research interests in
+          human capital, demographic change, economic history, and regional development.
+          My work lies at the intersection of applied economics, political economy,
+          and long-run development.
+        </p>
 
-  <h2 id="contact">Contact</h2>
-  <p>University of Bari Aldo Moro</p>
+        <div class="hero-links">
+          <a class="button-link" href="#research">View Research</a>
+          <a class="button-link" href="assets/cv.pdf" target="_blank">Download CV</a>
+          <a class="button-link" href="mailto:your.email@example.com">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="assets/profile.jpg" alt="Francisca Kubista portrait">
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2>About</h2>
+      <p class="section-intro">
+        My current research focuses on the relationship between human capital,
+        demographic dynamics, institutional change, and territorial development.
+        I am particularly interested in economic history, applied econometrics,
+        and the long-run drivers of regional inequality and social transformation.
+      </p>
+    </section>
+
+    <section class="section" id="research">
+      <h2>Research</h2>
+      <p class="section-intro">
+        Selected ongoing projects and working papers.
+      </p>
+
+      <div class="research-list">
+
+        <article class="paper-card">
+          <div class="paper-meta">Work in progress · Political Economy · Economic History</div>
+          <h3 class="paper-title">Female Suffrage and Human Capital Accumulation</h3>
+          <p class="paper-desc">
+            This project studies the relationship between female education and the
+            timing of suffrage adoption across countries.
+          </p>
+          <div class="paper-links">
+            <a href="papers/suffrage.html">Project page</a>
+            <a href="#">PDF coming soon</a>
+          </div>
+        </article>
+
+        <article class="paper-card">
+          <div class="paper-meta">Working paper · Regional Economics · Cultural Economics</div>
+          <h3 class="paper-title">Cultural Designations and Local Economic Development: Evidence from Matera</h3>
+          <p class="paper-desc">
+            This paper investigates the economic effects of Matera’s designation as
+            European Capital of Culture using synthetic control methods.
+          </p>
+          <div class="paper-links">
+            <a href="papers/matera.html">Project page</a>
+            <a href="#">PDF coming soon</a>
+          </div>
+        </article>
+
+        <article class="paper-card">
+          <div class="paper-meta">Work in progress · Economic History</div>
+          <h3 class="paper-title">The Franco-Italian Trade War of 1888 and Demographic Responses</h3>
+          <p class="paper-desc">
+            This research examines how trade shocks affected demographic outcomes
+            in the Province of Bari in the late nineteenth century.
+          </p>
+          <div class="paper-links">
+            <a href="papers/tradewar.html">Project page</a>
+            <a href="#">PDF coming soon</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section two-col" id="cv">
+      <div>
+        <h2>CV</h2>
+        <p>
+          You can download my curriculum vitae here.
+        </p>
+        <p>
+          <a class="button-link" href="assets/cv.pdf" target="_blank">Download CV</a>
+        </p>
+      </div>
+
+      <div id="contact">
+        <h2>Contact</h2>
+        <ul class="clean">
+          <li><strong>Email:</strong> your.email@example.com</li>
+          <li><strong>Institution:</strong> University of Bari Aldo Moro</li>
+          <li><strong>Location:</strong> Bari, Italy</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © Francisca Kubista — Academic Website
+    </div>
+  </footer>
+
 </body>
 </html>
